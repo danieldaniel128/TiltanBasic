@@ -1,0 +1,26 @@
+# Binaries/* for some reason this hides all files in the Binaries folder
+**/Binaries/**/*.exe
+**/Binaries/**/*.exp
+**/Binaries/**/*.lib
+**/Binaries/**/*.pdb
+**/Binaries/**/*.target
+!**/Binaries/**/*.dll
+
+Releases
+
+DerivedDataCache
+Intermediate
+Saved
+Saved.old
+.vscode
+.vs
+*.VC.db
+*.opensdf
+*.opendb
+*.sdf
+*.sln
+*.suo
+*.xcodeproj
+*.xcworkspace
+/Build
+./Build
